@@ -1,4 +1,4 @@
-// started
+// started============================================================================================================================
 
 class MyComponent extends React.Component {
     constructor(props) {
@@ -14,7 +14,7 @@ class MyComponent extends React.Component {
 ReactDOM.render( < MyComponent / > , document.getElementById("challenge-node"));
 
 
-//Pass Props to a Stateless Functional Component
+//Pass Props to a Stateless Functional Component=======================================================================================
 
 const CurrentDate = (props) => {
   return (
@@ -38,7 +38,7 @@ class Calendar extends React.Component {
   }
 };
 
-// Pass an Array as PropsPassed
+// Pass an Array as PropsPassed===========================================================================================================
 
 const List = props => {
   return <p>{props.tasks.join(", ")}</p>;
@@ -60,7 +60,7 @@ class ToDo extends React.Component {
   }
 }
 
-// Default props
+// Default props================================================================================================================================
 
 const ShoppingCart = (props) => {
   return (
@@ -71,7 +71,7 @@ const ShoppingCart = (props) => {
 };
 ShoppingCart.defaultProps = { items: 0 }
 
-//Override Default Props
+//Override Default Props======================================================================================================================
 
 const Items = (props) => {
   return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
@@ -88,7 +88,7 @@ class ShoppingCart extends React.Component {
   }
 };
     
-//Use PropTypes to Define the Props You Expect
+//Use PropTypes to Define the Props You Expect================================================================================================
     
 const Items = (props) => {
   return <h1>Current Quantity of Items in Cart: {props.quantity}</h1>
@@ -108,7 +108,7 @@ class ShoppingCart extends React.Component {
   }
 };
 
-//Access Props Using this.props
+//Access Props Using this.props========================================================================================================
     
 class ReturnTempPassword extends React.Component {
   constructor(props) {
@@ -147,7 +147,7 @@ class ResetPassword extends React.Component {
   }
 };
     
-// Review Using Props with Stateless Functional Components
+// Review Using Props with Stateless Functional Components=======================================================================================
 
 class CampSite extends React.Component {
   constructor(props) {
@@ -170,7 +170,7 @@ Camper.propTypes ={
   name: PropTypes.string.isRequired
 };
 
-//Create a Stateful Component
+//Create a Stateful Component===============================================================================================================
 
 class StatefulComponent extends React.Component {
   constructor(props) {
@@ -188,7 +188,7 @@ class StatefulComponent extends React.Component {
   }
 };
 
-//Render State in the User Interface
+//Render State in the User Interface=======================================================================================
 
 class MyComponent extends React.Component {
   constructor(props) {
@@ -208,7 +208,7 @@ class MyComponent extends React.Component {
   }
 };
 
-//Render State in the User Interface Another Way
+//Render State in the User Interface Another Way=======================================================================================
 
 class MyComponent extends React.Component {
   constructor(props) {
@@ -231,7 +231,7 @@ class MyComponent extends React.Component {
   }
 };
     
-//Set State with this.setState
+//Set State with this.setState=======================================================================================
 
 class MyComponent extends React.Component {
   constructor(props) {
@@ -258,4 +258,4 @@ class MyComponent extends React.Component {
   }
 };
 
-//
+//Bind 'this' to a Class Method=======================================================================================
